@@ -20,7 +20,7 @@ env/
 .app.py.swp
 
 # Environment & secrets
-.env
+# .env tracked for template
 .env.*
 
 # Logs & runtime
@@ -30,3 +30,4 @@ llm_integration_webhook.log*
 log/
 tmp/
 *.pid
+!.env

@@ -1,0 +1,32 @@
+
+.codegpt
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual env
+venv/
+.venv/
+env/
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+.app.py.swp
+
+# Environment & secrets
+.env
+.env.*
+
+# Logs & runtime
+*.log
+*.log.*
+llm_integration_webhook.log*
+log/
+tmp/
+*.pid
